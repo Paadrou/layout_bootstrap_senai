@@ -1,69 +1,182 @@
-   <!doctype html><html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nexcent</title>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexcent</title>
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <header>
+<body>
+
+  <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#"> <img src="images/logo.svg" alt="logo Nexcent"> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="images/logo.svg" alt="logo Nexcent"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-              <li class="nav-Home">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-              
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">Feature</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonial</a>
-              </li>
+            <li class="nav-Home">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-            </ul>
-            
-            <ul class="login navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                  </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
 
-                  <li class="nav-item">
-                    <a class="nav-link bnt green-btn" href="#">Sing Up</a>
-                  </li>
-            </ul>
 
+            <li class="nav-item">
+              <a class="nav-link" href="#">Feature</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonial</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+          </ul>
+
+          <ul class="login navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn green-btn" href="#">Sing Up</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="banner-full">
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Hero Section.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Hero Section.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Hero Section.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-      </nav>
-    </header>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-    <main>
-       <section class="banner">
+    </section>
+
+    <!-- fim:banner-full -->
+
+    <section class="clients py-5">
+      <h2 class="text-center">Our Clients</h2>
+      <p class="text-center">We have been working with some Fortune 500+ clients</p>
+      <div class="container">
+        <div class="d-flex justify-content-between">
+
+          <div>
+            <img src="images/clients/client-logo-1.svg" alt="logo">
+          </div>
+
+          <div>
+            <img src="images/clients/client-logo-2.svg" alt="logo">
+          </div>
+
+          <div>
+            <img src="images/clients/client-logo-3.svg" alt="logo">
+          </div>
+
+          <div>
+            <img src="images/clients/client-logo-4.svg" alt="logo">
+          </div>
+
+          <div>
+            <img src="images/clients/client-logo-5.svg" alt="logo">
+          </div>
+
+          <div>
+            <img src="images/clients/client-logo-6.svg" alt="logo">
+          </div>
+
+          <div>
+            <img src="images/clients/client-logo-7.svg" alt="logo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fim:clients -->
+
+    <section class="community ">
+      <h2 class="text-center">Manage your entire community in a single system</h2>
+      <p class="text-center">Who is Nextcent suitable for?</p>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 text-center">
+            <img src="images/icons/icon-membership.svg" alt="icon">
+            <h3>Membership Organisations</h3>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <img src="images/icons/icon-national.svg" alt="icon">
+            <h3>National Associations</h3>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
+
+          <div class="col-md-4 text-center  ">
+            <img src="images/icons/icon-clubs.svg" alt="icon">
+            <h3>Clubs And Groups</h3>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- <section class="banner">
          <div class="container ">
             <div class="p-5 mb-4 bg-body-tertiary rounded-3">
                 <div class="container-fluid py-5">
@@ -80,9 +193,106 @@
                 </div>
               </div>
          </div>
-    </main>
+        </section> -->
 
+    <section class="pixelgrade">
+      <div class="container ">
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+          <div class="container-fluid py-5">
+            <div class="row">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-  </body>
-</html>
+              <div class="col-md-4">
+                <img src="images/Frame 35.png" alt="imagem da seção pixelgrade">
+              </div>
+
+              <div class="col-md-8">
+                <h4 class="display-5 ">The unseen of spending three years at Pixelgrade</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam
+                  vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique
+                  iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae,
+                  tempus sem. Donec elementum pulvinar odio.</p>
+                <button class="btn btn-lg green-btn" type="button">Learn More</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="help-local">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+          <h3>Helping a local <br><span>business reinvent itself</span></h3>
+          <p>We reached here with our hard work and dedication</p>
+        </div>
+
+        <div class="col-md-6">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <div class="image-number">
+                    <img src="images/icons/Responsive Landing Page Design/Icon.png" alt="icon">
+                  </div>
+                  <div class="big-number">
+                    <h3>2,245,341</h3>
+                    <p>Members</p>
+                  </div>
+                </div>
+
+                <div class="d-flex">
+                  <div class="image-number">
+                    <img src="images/icons/Responsive Landing Page Design/Icon-2.png" alt="icon">
+                  </div>
+
+                  <div class="big-number">
+                    <h3>828,867 </h3>
+                    <p>Event Bookings</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <div class="image-number">
+                    <img src="images/icons/Responsive Landing Page Design/Icon.png" alt="icon">
+                  </div>
+                  <div class="big-number">
+                    <h3>2,245,341</h3>
+                    <p>Members</p>
+                  </div>
+                </div>
+
+                <div class="d-flex">
+
+                  <div class="image-number">
+                    <img src="images/icons/Responsive Landing Page Design/Icon-2.png" alt="icon">
+                  </div>
+
+                  <div class="big-number">
+                    <h3>828,867 </h3>
+                    <p>Event Bookings</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>'
