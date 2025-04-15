@@ -1,5 +1,9 @@
+:root{
+    --primary-color:#4CAF4F
+}
+
 .green-btn{
-    background: #4CAF4F;
+    background: var(--primary-color);
     color: #fff;
     font-weight: 400;
 }
@@ -10,3 +14,60 @@
     color: #fff;
 
 }
+
+.font-grey{
+    color: #717171;
+}
+
+.background-grey{
+    background-color: #F5F7FA;
+}
+
+
+.help-local span{
+    color: var(--primary-color);
+}
+
+/* fim:help-local */
+
+.costumers h5{
+    color: var(--primary-color);
+}
+
+.costumers a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* fim:costumers */
+
+.card-body{
+    background: #F5F7FA;
+    width: 317px;
+    height: 176px;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0 25px 0 50px;
+}
+
+
+.marketing a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.marketing p{
+    height: 100px;
+}
+
+/* fim:marketing */
+
+
+.footer{
+    background: #263238;
+}
+
+.footer p{
+    color: #F5F7FA;
+}
+
