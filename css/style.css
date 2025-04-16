@@ -15,6 +15,15 @@
 
 }
 
+.translate-middlex{
+    border-radius: 8px;
+    transform: translateX(-90%)
+}
+
+.title-grey{
+    color: #4D4D4D;
+}
+
 .font-grey{
     color: #717171;
 }
@@ -63,6 +72,16 @@
 /* fim:marketing */
 
 
+.libero-eu h2{
+    font-size: 64px;
+    font-weight: 600px;
+}
+
+.libero-eu a{
+    margin: 32px 0;
+    padding: 14px 32px; 
+}
+
 .footer{
     background: #263238;
 }
@@ -71,3 +90,21 @@
     color: #F5F7FA;
 }
 
+.footer h5{
+    color: #fff;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #F5F7FA;
+}
+
+.footer .input-footer{
+    background: #515B60;
+    border: none;
+    border-radius: 8px;
+}
+
+.footer .container{
+   padding:  82px 82px 82px 82px;
+}
