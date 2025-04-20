@@ -23,7 +23,7 @@
     
 } 
 
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+.footer .btn-check:checked+.btn,.footer  .btn.active,.footer .btn.show,.footer .btn:first-child:active,.footer :not(.btn-check)+.btn:active{
     border-radius: 8px;
     transform: translateX(-80%);
     background: #515B60;
